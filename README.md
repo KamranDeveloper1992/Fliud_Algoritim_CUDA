@@ -1,0 +1,1 @@
+This algorithm is a CUDA kernel function that runs on the GPU (__global__). Its purpose is to check two parameters, sizeFluid and rateFluid, and determine a simulation status. If the condition sizeFluid > 50 or rateFluid < 20 is true, the status is set to 1; otherwise, the status is set to 0.
